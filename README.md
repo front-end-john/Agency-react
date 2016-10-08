@@ -4,7 +4,7 @@
 ## How to use
 First, you should clone the repo and install the dependencies.
 
-## SCREENSHOTS
+## Screenshots
 - 主页面截图
 <br/>
 ![image](https://github.com/ifeng2016/Agency-react/blob/master/screenshots/Cgp3O1e1U3uAOxmoAAFfYyX68-s326.jpg)

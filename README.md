@@ -5,6 +5,7 @@
 First, you should clone the repo and install the dependencies.
 
 ![image](https://github.com/ifeng2016/Agency-react/blob/master/screenshots/Cgp3O1e1U3uAOxmoAAFfYyX68-s326.jpg)
+<br/>
 ![image](https://github.com/ifeng2016/Agency-react/blob/master/screenshots/my.png)
 
 ## Features

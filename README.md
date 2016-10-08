@@ -4,8 +4,11 @@
 ## How to use
 First, you should clone the repo and install the dependencies.
 
+- 主页面截图
 ![image](https://github.com/ifeng2016/Agency-react/blob/master/screenshots/Cgp3O1e1U3uAOxmoAAFfYyX68-s326.jpg)
 <br/>
+<br/>
+- 子页面截图
 ![image](https://github.com/ifeng2016/Agency-react/blob/master/screenshots/my.png)
 
 ## Features

@@ -1,0 +1,175 @@
+#search{
+    margin: 0 4.4rem;
+}
+#search input{  
+    width: 100%;  
+    height: 2.65rem;
+    border: 1px solid #d8d8d8;
+    border-radius: 3rem;
+    background: url(../../images/search_icon.png) .9rem center no-repeat;
+    background-size: 1.5rem 1.5rem;
+    padding-left: 3rem;
+    background-color: #fff;
+}
+.business .dropdown li{
+    width: 25%;
+}
+#location{
+    font-size: 1.3rem;
+    background-color: #f9f9f9;
+}
+#location p{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.menu{
+    margin-top: 1rem;
+}
+.refresh-icon{
+    width: 1.7rem;
+    height: 1.7rem;
+    background: url(../../images/refresh_icon.png);
+    background-size: 100% 100%;
+}
+.food-box{
+    width: 100%;
+    padding: 1.3rem 1.4rem;
+    display: inline-block;
+}
+.food-box>div{
+    float: left;
+}
+
+
+.food-info>div{
+    display: box;
+    display: -webkit-box;
+}
+.food-info .t1{
+    -webkit-box-flex: 1;
+    box-flex: 1;
+}
+.food-info .t2,.food-info .food-type,.text-gray{
+    color: #999;
+}
+.food-info .food-name{
+    font-size: 1.5rem;
+}
+.food-info .bank,.stand{
+    color: #ff9900;
+}
+.stand{
+    border: 1px solid #f58300;
+    border-radius: .25rem;
+    padding: .2rem;
+    float: right;
+}
+.info-details,.list-3{
+    color: #666;
+}
+.white-bg{
+    height: 1rem;
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    background: #fff;
+}
+.list-2,.list-3{
+    margin-top: .75rem;
+}
+.wai,.yen,.hui,.tuan,.quan{
+    color: #fff;  
+    width: 1.4rem;
+    height: 1.4rem;  
+    background-color: #d05a0c;
+    font-size: 1rem;
+    line-height: 1.6;  
+    text-align: center;
+}
+.yen{
+    background-color: #f5716e;
+}
+.bank img{
+    width: auto;
+    height: 1.4rem;
+}
+.hui,.tuan,.quan{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: .2rem;
+}
+.hui{
+    background-color: #f5726e;
+}
+.tuan{
+    background-color: #44b9a2;
+}
+.quan{
+    background-color: #f99311;
+}
+.f99311{
+    background-color: #f5726e;
+}
+.btn-order{
+    position: relative;
+    right: 0;
+    font-size: 1.8rem;
+}
+/*商家详情*/
+.bs-store .store-location{
+    margin-top: 0;
+    margin-right: 3.7rem;
+}
+.cx{
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #f6a21b;
+    padding: .25rem;
+    margin-left: -2.55rem;
+}
+.activity-info{
+    padding-left: 2.55rem;
+}
+.activity-info>span{
+    vertical-align: top;
+}
+.title-info{
+    font-size: 1.3rem;
+}
+.other-info{
+    margin-top: 1rem;
+}
+.meal-icon{
+    width: 1.9rem;
+    height: 1.5rem;
+    background: url(../../images/meal_icon.png);
+    background-size: 100% 100%;
+    margin-right: 1rem;
+}
+.bs-icon{
+    width: 1.65rem;
+    height: 1.5rem;
+    background: url(../../images/bs_icon.png);
+    background-size: 100% 100%;
+    margin-right: 1rem;
+}
+.bs-imgs ul{
+    padding: .65rem;
+}
+.bs-imgs li{
+    width: 50%;
+    float: left;
+    padding: .25rem;
+}
+.bs-imgs li img{
+    border-radius: .5rem;
+}
+.will-begin{
+    width: 2.4rem;
+    height: 2.45rem;
+    background: url(../../images/will_begin.png);
+    background-size: 100% 100%;
+        z-index: 10;
+    position: absolute;
+}

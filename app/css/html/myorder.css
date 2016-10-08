@@ -1,0 +1,100 @@
+.order-status .btn-disabed{
+    position: relative;
+}
+.coupon,.value{
+    width: 50%;
+}
+.value{
+    padding-left: 2.3rem;
+}
+.value .price{
+    margin-top: 1.8rem;
+}
+.a-status{
+    color: #f8a614;
+    border: 1px solid #f8a614;
+    border-radius: .25rem;
+    padding: .3rem .5rem;
+    display: inline-block;
+    position: absolute;
+    right: 1.6rem;
+    bottom: 2rem;
+}
+.coupon{
+    height: 7.45rem;
+}
+.coupon>div{
+    float: left;
+    color: #fff;
+}
+.coupon>div.coupon-type{
+    width: 3.55rem;
+    height: 7.45rem;    
+}
+.value-box{
+    height: 100%;    
+    margin-right: -0.45rem;
+    position: relative;
+}
+.cash-conpon .coupon-type{
+    background: url(../../images/cash_l.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.cash-conpon .value-box{
+    background: url(../../images/cash_r.png) right 0 no-repeat;
+    background-size: auto 100%;
+}
+.cash-discount .coupon-type{
+    background: url(../../images/discount_l.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.cash-discount .value-box{
+    background: url(../../images/discount_r.png) right 0 no-repeat;
+    background-size: auto 100%;
+}
+.cash-discount .coupon-text{
+    background-color: #f87a14;
+}
+.coupon-title{
+    position: absolute;
+    font-size: 1rem;
+    width: 1rem;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.coupon-text{
+    height: 7.45rem;
+    background-color: #de2b49;
+    text-align: center;
+    position: absolute;
+    left: 3.75rem;
+    right: 0.45rem;
+}
+
+.num{
+    font-size: 1.8rem;
+}
+.expiry{
+    font-size: .85rem;
+    margin-top: 1rem;
+}
+.box-content{
+    position: absolute;   
+    top: 50%;
+    width: 100%;
+    left: .9rem;
+    -webkit-transform: translate(-.9rem, -50%);
+    -moz-transform: translate(-.9rem, -50%);
+    -ms-transform: translate(-.9rem, -50%);
+    transform: translate(-.9rem, -50%);
+}
+.order-status .btn-refund{
+    background-color: #d92121;
+}
+.btn-paid{
+    background-color: #ff9933;
+}

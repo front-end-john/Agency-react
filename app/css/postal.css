@@ -1,0 +1,151 @@
+#wrapper{
+    background: #f5f5f5;
+}
+.header{
+    background-color: #fff;
+}
+.ques-icon{
+    background: url(../images/question_icon.png) 0 0 no-repeat;
+    background-size: 100%;
+    width: 2.25rem;
+    height: 2.65rem;
+}
+.coupon-type,.swiper-slide{
+    border-bottom: 1px solid #bfbfbf;
+}
+.swiper-container{
+    background-color: #efefef;
+}
+.swiper-slide .content{
+    text-align: center;
+    padding: 1.6rem 0 4.3rem 0;
+    border-top: 1px solid #bfbfbf;
+}
+.swiper-slide .content h1{
+    color: #5fae2f;
+    font-size: 1.6rem;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 1px solid #5faf2f;
+    padding: 0 2.2rem .55rem 2.2rem;
+}
+.swiper-slide .content p{
+    color: #71b649;
+    font-size: 1.2rem;
+    margin-top: .4rem;
+}
+.swiper-pagination-bullet-active{
+    background: #ffc807;
+    width: 12px;
+    height: 12px;
+}
+.swiper-container-horizontal>.swiper-pagination{
+    bottom: 20px;
+}
+
+.index-menu{
+    margin-top: 1rem;
+    padding-top: 2.5rem;   
+    padding-bottom: 1.3rem; 
+    position: relative;
+    background: #fefbf4;
+}
+
+.coupon-time{
+    padding: .4rem 0;
+    color: #bd5927;
+    text-align: center;
+    margin-left: 1.2rem;
+    margin-right: 1.6rem;
+    background: #f9e072;
+}
+.coupon-list{
+    background-color: #efefef;
+}
+.coupon-list h2{
+    color: #868686;
+    height: 2.3rem;
+    line-height: 2.3rem;
+    text-align: center;
+}
+.list-item{
+    width: 100%;
+    display: table;
+}
+.list-item>div{
+    width: 50%;
+    display: table-cell;
+}
+.list-item .djq{
+    padding-right: .225rem;
+}
+.list-item .zkq{
+    padding-left: .225rem;
+}
+.list-item>div span{
+    font-size: 1.8rem;
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.item li{
+    margin: 1rem 1.2rem 0 1.2rem;
+}
+.title-text{
+    width: 40%;
+    min-width: 150px;
+    margin: 0 auto;
+}
+.index-menu ul{
+    padding: 0 1rem;
+    background: url(../images/cloud.png) 0 bottom no-repeat;
+    background-size: 100%;
+}
+.menu ul li .menu-item,.menu ul li:first-child .menu-item,.menu ul li:last-child .menu-item{
+    background: none;
+    margin: 1rem;
+}
+.menu ul li .menu-item a{
+    width: 66%;
+    min-width: 42px;
+    margin: 0 auto;
+    height: auto;
+    border-radius: 50%;
+}
+.menu ul li .menu-item a:hover{
+    background-color: #fbdb7f;
+    box-shadow: 0 0 3px 3px #fde888;
+}
+.clearfix:after{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden
+}
+.clearfix{
+    *+height:1%;
+}
+.cookDiv{
+    position: absolute;
+    top: 1.3rem;
+    left: 1.2rem;
+    right: 1.6rem;
+    bottom: 1.3rem;
+    border: 1px solid #f9e072;    
+}
+.cookDiv .cook{
+    width: 3.2rem;
+    height: 3.2rem;
+    background: url(../images/cook.png) 0 0 no-repeat;
+    background-size: 3.2rem 3.2rem;
+    position: absolute;
+    right: -.4rem;
+    top: -1.15rem;
+}

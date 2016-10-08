@@ -1,0 +1,76 @@
+.header{
+    height: auto;
+}
+.my-header{
+    background: url(../../images/motto.png) 94% .7rem no-repeat;
+    background-color: #ff9e05;
+    background-size: 54% auto;
+    padding-top: 2.8rem;    
+}
+.arrow-2{
+    width: .75rem;
+    height: 1.15rem;
+    background: url(../../images/arrow_2.png);
+    background-size: 100% 100%;
+}
+.avatar{
+    width: 25%;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.text-left{
+    text-align: left;
+}
+.username{
+    color: #fff;
+    margin-left: 1.7rem;
+}
+.icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+.text-gray{
+    color: #666;
+}
+.icon-h{
+    width: 5.1rem;
+    height: 4rem;
+}
+.wallet-icon{    
+    background: url(../../images/wallet_icon.png) center center no-repeat;
+    background-size: 2.3rem 1.8rem; 
+}
+.wait-icon{
+    background: url(../../images/wait_icon.png) center center no-repeat;
+    background-size: 2.7rem 1.9rem; 
+}
+.solded-icon{
+    background: url(../../images/solded_icon.png) center center no-repeat;
+    background-size: 2.2rem 1.95rem; 
+}
+.status{
+    width: 5.1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.number{
+    width: 1.65rem;
+    height: 1.65rem;
+    border-radius: 50%;
+    color: #ff9e05;
+    font-size: 1rem;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border: .15rem solid #ff9e05;
+    padding-top: .125rem;
+    background-color: #fff;
+    position: absolute;
+    right: .5rem;
+    top: .2rem;
+}    
+.item .btn-group{
+    display: inline-block;
+}

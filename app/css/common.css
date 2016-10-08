@@ -1,0 +1,153 @@
+html {
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    font-size: 62.5%;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ol,
+ul,
+input,
+button{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-style: normal;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-width: 0;
+}
+
+body {
+    font-size: 1.2rem;/* =12px */    
+    
+}
+h1,h2{
+    font-family: "Microsoft YaHei", "San Francisco";
+}
+h1,
+h2,
+h3 {
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+html,
+body {    
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+img,
+a,
+button,
+strong,
+label,
+span{
+    display: inline-block;
+}
+
+header,
+section,
+footer {
+    position: relative;
+}
+
+input,
+button{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    outline: 0;
+}
+
+span {
+    vertical-align: middle;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+@media screen and (min-width:641px){   
+    html {
+        font-size: 100%;
+    }
+}
+@media screen and (max-width:640px){   
+    html {
+        font-size: 100%;
+    }
+}
+@media screen and (max-width:580px){    
+    html {
+        font-size: 77.9%;
+    }
+}
+@media screen and (max-width:540px){    
+    html {
+        font-size: 77.3%;
+    }
+}
+@media screen and (max-width:480px){    
+    html {
+        font-size: 68.3%;
+    }
+}
+@media screen and (max-width:428px){   
+    html {
+        font-size: 67%;
+    }
+}
+@media screen and (max-width:360px){   
+    html {
+        font-size: 64.1%;
+    }
+}
+@media screen and (max-width:320px){
+    html {
+        font-size: 62.5%;
+    }   
+}
+@media screen and (orientation : landscape){
+    html {
+        font-size: 62.5%;
+    }
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+
+input:disabled, button:disabled {
+    /*background: none repeat scroll 0% 0% #C9C9C9; */
+    background: none repeat scroll 0% 0% #CCC;
+}
+.clear{
+    clear: both;
+}
+
+

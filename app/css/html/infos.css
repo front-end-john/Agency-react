@@ -1,0 +1,55 @@
+#wrapper.info-wrap{
+    background-color: #f5f5f5;
+}
+.orange{
+    color: #ff9900;
+}
+.danger{
+    color: red;
+}
+#wrapper .section{
+    background-color: #fff;
+}
+.foot{
+    text-align: center;
+    margin-top: 1.7rem;
+}
+.foot .btn{
+    background-color: #ffcc33;
+    padding-left: 3.8rem;
+    padding-right: 3.8rem;
+    width: auto;
+    color: #fff;
+    border: none;
+}
+.foot .btn-confirm{
+    margin-right: 2rem;
+}
+.birth{
+    text-align: center;
+}
+.getCode{
+    color: #fff;
+    background-color: #ffcc00;
+    width: 6.5rem;
+    height: 3rem;
+    border-radius: .5rem;
+}
+
+.verify-title{
+    color: #2d2c2a;
+    text-align: center;
+    margin-top: 1rem;
+}
+.verify-desc{
+    color: #999;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    line-height: 1.4;
+}
+input{
+    vertical-align: middle;
+}
+.width100{
+    width: 100%;    
+}

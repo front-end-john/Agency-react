@@ -1,0 +1,202 @@
+body{
+    background-color: #f5f5f5;
+}
+/*代金券页面样式*/
+.header{
+    border-bottom: 1px #dbdbdb solid;
+}
+
+.item .img{
+    width: 30%;
+    margin-right: .7rem;
+}
+.item .img img{
+    border-radius: .5rem;
+}
+.info {
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    position: relative;
+}
+.info .name{
+    font-size: 1.4rem;
+    color: #666;
+}
+.info .brief{
+    margin-top: .45rem;
+    font-size: .9rem;
+}
+.info .price{
+    margin-top: 2rem;
+}
+.info .m-price,.info .recommend{
+    border-radius: .25rem;
+    padding: .2rem .35rem;
+}
+.info .m-price{
+    border: 1px solid #bbb;
+    color: #bbb;
+}
+.info .recommend{
+    border: 1px solid #fe665c;
+    color: #fe665c;
+}
+.info .price{
+    color: #b7b7b7;
+}
+.info .red{
+    color: #ff6c00;
+    font-weight: 600;
+    padding-right: .5rem;
+    border-right: 1px solid #b7b7b7;
+}
+.info .num{
+    font-size: 1.8rem;
+}
+.info .yuan{
+    font-size: .9rem;
+}
+/*订单确认页面样式*/
+.goods-name{
+    color: #e72a21;
+}
+.payment-price{
+    margin-top: 1.1rem;
+    color: #999;
+}
+.checked-icon{
+    width: 1.95rem;
+    height: 1.95rem;
+    background: url(../../images/checked_icon.png);
+    background-size: 100% 100%;
+}
+.i2 .phonenum{
+    text-align: right;
+    font-size: 1.6rem;
+    color: #333;
+    height: 2rem;
+    background: url(../../images/edit_icon.png) right center no-repeat;
+    background-size: 2.1rem auto;
+    padding-right: 4rem;
+}
+
+.payment{
+    display: box;
+    display: -webkit-box;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border-top: 1px solid #e8e8e8;
+    height: 7rem;
+}
+.btn-jc{
+    background-color: #87c03b;
+    color: #fff;
+    border-radius: 3rem;
+    width: 70%;
+    margin: 1.35rem auto;
+    line-height: 4.35rem;
+    font-size: 1.3rem;
+    display: block;    
+    -webkit-box-flex: 1;
+    box-flex: 1;
+}
+
+.all{
+    height: auto;
+}
+#footer{
+    margin-bottom: 7rem;
+}
+/*票券详情页面样式*/
+.type .name{
+    color: #313131;
+}
+.type .use-time{
+    color: #ccc;
+    margin-top: 1.2rem;
+}
+strong{
+    vertical-align: middle;
+}
+.red,.price,.card-type{
+    display: inline-block;
+}
+.price .num{
+    font-size: 1.7rem;
+}
+.i1 .card-type{
+    background-color: #ff6c00;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 3rem;
+    padding: .35rem .85rem;
+    margin-left: 3.15rem;
+}
+.del-price{
+    padding: 0;
+    margin: 0 1.4rem;
+}
+.del-price del{
+    color: #999;
+}
+.i1 .checked-icon,.i2 .sold-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.sold-icon{
+    background: url(../../images/checked2_icon.png);
+    background-size: 100% 100%;
+}
+.sold{
+    color: #b2b2b2;
+}
+.bd{
+    width: 33.33%;
+    text-align: center;
+    color: #e3e3e3;
+}
+
+
+.store-icon{    
+    height: 1.4rem;
+    background: url(../../images/store_icon.png) 0 0 no-repeat;
+    background-size: 1.8rem auto;
+}
+
+.rules{
+    padding: 1.3rem 1.4rem;  
+    background-color: #f5f5f5;
+    color: #666;
+}
+.rules-title{
+    color: #999;
+}
+.rules-details{
+    padding: 2rem 0;
+}
+.rules-details p{
+    line-height: 1.6;
+}
+/*门店列表页面样式*/
+.store-name{
+    font-size: 1.5rem;
+    font-weight: 600; 
+    padding: .85rem 0;
+}
+/*周三五折*/
+.info .bd-yellow{
+    border: 1px solid #e0b33e;
+}
+.half-of{
+    color: #ffa784;
+    border-radius: .25rem;
+    padding: .2rem .35rem;
+}
+
+#share ul li .menu-item{
+    width: 100%;
+}

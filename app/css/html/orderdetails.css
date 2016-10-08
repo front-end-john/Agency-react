@@ -1,0 +1,36 @@
+.order-info{
+    margin-left: 1.55rem;
+}
+.order-title{
+    color: #000;
+}
+.use-coupon-info{
+    color: #999;
+    line-height: 1.8;
+}
+.order-price{
+    color: #ff3366;
+    font-size: 1.6rem;
+}
+.other-info{
+    text-align: center;
+}
+.checked-icon{
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-right: .9rem;
+    background: url(../../images/checked3_icon.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.c1{
+    color: #aaa;
+}
+.expiry,.store,.more-info>div{
+    margin-top: .6rem;
+}
+.c2{
+    color: #666;
+}
+.more-info{
+
+}

@@ -1,0 +1,87 @@
+.header{
+    background-color: #fff;
+}
+.ques-icon{
+    background: url(../images/question_icon.png) 0 0 no-repeat;
+    background-size: 100%;
+    width: 2.25rem;
+    height: 2.65rem;
+}
+.coupon-type,.swiper-slide{
+    border-bottom: 1px solid #bfbfbf;
+}
+.swiper-container{
+    background-color: #efefef;
+}
+.swiper-slide .content{
+    text-align: center;
+    padding: 1.6rem 0 4.3rem 0;
+    border-top: 1px solid #bfbfbf;
+}
+.swiper-slide .content h1{
+    color: #5fae2f;
+    font-size: 1.6rem;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 1px solid #5faf2f;
+    padding: 0 2.2rem .55rem 2.2rem;
+}
+.swiper-slide .content p{
+    color: #71b649;
+    font-size: 1.2rem;
+    margin-top: .4rem;
+}
+.slick-dots li.slick-active button:before{
+    color: #2d5614;
+    opacity: 1;
+    font-size: 16px;
+}
+.slick-dots{
+    bottom: 20px;
+}
+
+.index-menu{
+    margin-top: 1rem;
+}
+.coupon-type{
+    padding: 1.4rem 1.25rem 1.25rem;
+}
+.coupon-list{
+    background-color: #efefef;
+}
+.coupon-list h2{
+    color: #868686;
+    height: 2.3rem;
+    line-height: 2.3rem;
+    text-align: center;
+}
+.list-item{
+    width: 100%;
+    display: table;
+    /*margin-top: .3rem;*/
+}
+.list-item>div{
+    width: 50%;
+    display: table-cell;
+}
+.list-item .djq{
+    padding-right: .225rem;
+}
+.list-item .zkq{
+    padding-left: .225rem;
+}
+.list-item>div span{
+    font-size: 1.8rem;
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.item li{
+    margin-bottom: 1.05rem;
+}

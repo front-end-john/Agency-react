@@ -18,8 +18,6 @@ import Password from './components/my/myinfo/Password.jsx'
 import Order from './components/my/order/Order.jsx'
 import OrderDetails from './components/my/order/OrderDetails.jsx'
 
-
-
 /* 样式文件加载 */
 import './lib/slick-carousel/slick/slick.css'
 import './lib/slick-carousel/slick/slick-theme.css'
@@ -39,7 +37,7 @@ render((
         <Route path="/phone" component={Phone}/>
         <Route path="/password" component={Password}/>
         <Route path="/order" component={Order}/>
-        
+        <Route path="/orderdetails" component={OrderDetails}/>
     </Router>
     ), document.getElementById('app')
 )

@@ -1,5 +1,5 @@
 # Agency-react 
--If you have any questions, you can contact by QQ: 1121898804, thank you!
+-If you have any questions, you can leave a message, thank you!
 
 ## How to use
 First, you should clone the repo and install the dependencies.
@@ -32,3 +32,6 @@ $ cd app
 $ webpack-dev-server
 ```
 Visit http://127.0.0.1:8080 with your browser.
+
+## More
+My github blog:https://github.com/ifeng2016/blog
